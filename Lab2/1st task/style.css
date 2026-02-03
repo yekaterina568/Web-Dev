@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    background: #f0f2f5;
+    color: #1c1e21;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    gap: 120px;
+}
+
+.left {
+    max-width: 500px;
+}
+
+.logo {
+    color: #1877f2;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.right {
+    text-align: center;
+}
+
+.login-box {
+    width: 396px;
+    background: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1),
+                0 8px 16px rgba(0,0,0,0.1);
+}
+
+.login-box input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 12px;
+    font-size: 17px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+}
+
+.login-box input:focus {
+    outline: none;
+    border-color: #1877f2;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 14px;
+    background: #1877f2;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background: #166fe5;
+}
+
+.forgot {
+    display: block;
+    margin: 16px 0;
+    font-size: 14px;
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.line {
+    height: 1px;
+    background: #dadde1;
+    margin: 20px 0;
+}
+
+.create-btn {
+    background: #42b72a;
+    color: white;
+    border: none;
+    padding: 14px 16px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.create-btn:hover {
+    background: #36a420;
+}
+
+.create-page {
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.create-page a {
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+
+.footer {
+    background: #fff;
+    padding: 30px 60px;
+    font-size: 12px;
+    color: #737373;
+}
+
+.languages {
+    margin-bottom: 10px;
+}
+
+.links {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.meta {
+    margin-top: 10px;
+}
+
+@media (max-width: 900px) {
+    .main {
+        flex-direction: column;
+        gap: 40px;
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .left {
+        text-align: center;
+    }
+}
