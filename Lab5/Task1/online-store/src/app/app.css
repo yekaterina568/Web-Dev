@@ -1,0 +1,34 @@
+body {
+    background-color: #f0f4f8; 
+  
+  .container, app-root, main {
+    background-color: #ffffff;
+    border: 2px solid #6c63ff;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  }
+  
+  .logo, h1 {
+    font-size: 3rem !important;
+    letter-spacing: 6px;
+  }
+  
+  .subtitle, .logo + p {
+    font-size: 1.2rem !important;
+  }
+  
+  .product-name, .product-description {
+    font-size: 1rem !important;
+  }
+  
+  .price {
+    font-size: 1.3rem !important;
+  }
+  
+  nav a, .tab {
+    font-size: 1.1rem !important;
+  }
+}

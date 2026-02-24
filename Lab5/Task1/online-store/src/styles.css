@@ -1,0 +1,16 @@
+body {
+    background-color: #e8eaf6;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  app-root {
+    display: block;
+    max-width: 1300px;
+    margin: 0 auto;
+    background: white;
+    border: 3px solid #6c63ff; 
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 0 30px rgba(108, 99, 255, 0.3);
+  }

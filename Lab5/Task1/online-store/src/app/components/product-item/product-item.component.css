@@ -1,0 +1,144 @@
+.card {
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: border-color 0.2s;
+}
+
+.card:hover {
+    border-color: #6600ff;
+}
+
+.img-wrap {
+    background: #ffffff;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-wrap img {
+    height: 160px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.info {
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.tag {
+    font-size: 11px;
+    color: #6600ff;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #e0e0e0;
+    line-height: 1.4;
+}
+
+.desc {
+    font-size: 15px;
+    color: #2b2626;
+    line-height: 1.5;
+}
+
+.price {
+    font-size: 18px;
+    color: #6600ff;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.likes-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: #888;
+}
+
+.like-btn {
+    background: none;
+    border: 1px solid #ffffff;
+    color: #ff4466;
+    font-size: 19px;
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.like-btn:hover {
+    background: #ffffff;
+    border-color: #ff4466;
+}
+
+.btns {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 10px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: opacity 0.15s;
+}
+
+.btn:hover { opacity: 0.8; }
+
+.kaspi { background: #0055cc; color: #393333; }
+.wa    { background: #2b21a0; color: #fff; }
+.tg    { background: #0088cc; color: #655757; }
+.del   { background: #ffffff; color: #e90909; border: 1px solid #333; }
+.del:hover { color: #ff4444; border-color: #ff4444; }
+
+body {
+    background-color: #f0f4f8; 
+
+.container, app-root, main {
+    background-color: #ffffff;
+    border: 2px solid #6c63ff;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.logo, h1 {
+    font-size: 3rem !important;
+    letter-spacing: 6px;
+}
+
+.subtitle, .logo + p {
+    font-size: 1.2rem !important;
+}
+
+.product-name, .product-description {
+    font-size: 1rem !important;
+}
+
+.price {
+    font-size: 1.3rem !important;
+}
+
+nav a, .tab {
+    font-size: 1.1rem !important;
+}
+}

@@ -1,0 +1,11 @@
+<div class="grid" *ngIf="list.length > 0; else empty">
+    <app-product-item
+        *ngFor="let p of list"
+        [product]="p"
+        (deleted)="removeItem($event)">
+    </app-product-item>
+</div>
+
+<ng-template #empty>
+    <p class="no-items">// товары закончились или удалены</p>
+</ng-template>

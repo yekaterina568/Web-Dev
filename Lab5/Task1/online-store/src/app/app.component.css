@@ -1,0 +1,86 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+
+body {
+  background: #0d0d0d;
+  font-family: 'Courier New', monospace;
+  color: #3539aa;
+}
+
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 40px 24px 20px;
+  border-bottom: 2px solid #1f13c6;
+}
+
+.logo-text {
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 8px;
+  color: #371bb5;
+  text-shadow: 0 0 20px #605497;
+}
+
+.sub {
+  font-size: 18px;
+  color: #555;
+  margin-top: 4px;
+  letter-spacing: 2px;
+}
+
+.tabs {
+  display: flex;
+  gap: 0;
+  border-bottom: 1px solid #222;
+  padding: 0 24px;
+  margin-top: 0;
+  overflow-x: auto;
+}
+
+.tabs button {
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  color: #666;
+  font-family: 'Courier New', monospace;
+  font-size: 18px;
+  padding: 18px 24px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s;
+  letter-spacing: 1px;
+}
+
+.tabs button:hover {
+  color: #3711b6;
+}
+
+.tabs button.active {
+  color: #5920ba;
+  border-bottom-color: #094ac4;
+}
+
+.content {
+  padding: 40px;
+}
+
+.cat-title {
+  font-size: 25px;
+  letter-spacing: 3px;
+  color: #aaa;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.hint-box {
+  text-align: center;
+  padding: 100px 20px;
+  color: #333;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+

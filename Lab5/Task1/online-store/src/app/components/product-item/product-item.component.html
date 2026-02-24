@@ -1,0 +1,24 @@
+<div class="card">
+    <div class="img-wrap">
+        <img [src]="product.image" [alt]="product.name" />
+    </div>
+
+    <div class="info">
+        <p class="tag">// {{ product.rating }} ⭐</p>
+        <h3>{{ product.name }}</h3>
+        <p class="desc">{{ product.description }}</p>
+        <p class="price">{{ product.price | number:'1.0-0' }} ₸</p>
+
+    <div class="likes-row">
+        <button class="like-btn" (click)="addLike()">♥</button>
+        <span>{{ product.likes }}</span>
+    </div>
+
+    <div class="btns">
+        <a [href]="product.link" target="_blank" class="btn kaspi">Kaspi →</a>
+        <button class="btn wa" (click)="sendWA()">WA</button>
+        <button class="btn tg" (click)="sendTG()">TG</button>
+        <button class="btn del" (click)="onDelete()">✕</button>
+    </div>
+    </div>
+</div>
