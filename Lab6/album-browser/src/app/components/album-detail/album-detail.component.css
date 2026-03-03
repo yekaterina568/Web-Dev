@@ -1,0 +1,17 @@
+.detail { max-width: 640px; }
+.loading { color: #999; padding: 40px 0; font-size: 14px; }
+.top { margin-bottom: 28px; }
+.back-btn { background: none; border: 1px solid #ddd; padding: 8px 20px; font-size: 13px; color: #666; cursor: pointer; transition: all 0.15s; }
+.back-btn:hover { border-color: #1a1a1a; color: #1a1a1a; }
+.meta { display: flex; gap: 12px; margin-bottom: 12px; }
+.id-tag, .user-tag { font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: #999; background: #f0ece4; padding: 4px 10px; border-radius: 2px; }
+h2 { font-size: 24px; font-weight: normal; color: #1a1a1a; margin-bottom: 32px; line-height: 1.4; text-transform: capitalize; }
+.edit-block { background: #fff; border: 1px solid #e0dcd4; padding: 24px; margin-bottom: 20px; }
+label { display: block; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #999; margin-bottom: 10px; }
+.input { width: 100%; padding: 10px 14px; border: 1px solid #ddd; font-size: 15px; font-family: Georgia, serif; color: #1a1a1a; outline: none; }
+.input:focus { border-color: #c8a96e; }
+.save-btn { margin-top: 14px; padding: 10px 28px; background: #1a1a1a; color: #c8a96e; border: none; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; cursor: pointer; }
+.save-btn:hover { opacity: 0.8; }
+.saved-msg { margin-left: 14px; font-size: 13px; color: #5a9; }
+.photos-btn { padding: 12px 28px; background: transparent; border: 1px solid #1a1a1a; color: #1a1a1a; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; cursor: pointer; transition: all 0.15s; }
+.photos-btn:hover { background: #1a1a1a; color: #c8a96e; }

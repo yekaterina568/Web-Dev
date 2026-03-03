@@ -1,0 +1,17 @@
+<div class="albums">
+    <h2>All Albums</h2>
+    @if (loading) {
+    <div class="loading">Loading albums...</div>
+    }
+    @if (!loading) {
+    <div class="list">
+        @for (album of albums; track album.id) {
+        <div class="item" (click)="goToDetail(album.id)">
+            <span class="num">{{ album.id }}</span>
+            <span class="title">{{ album.title }}</span>
+            <button class="del" (click)="onDelete(album.id, $event)">Delete</button>
+        </div>
+        }
+    </div>
+    }
+</div>

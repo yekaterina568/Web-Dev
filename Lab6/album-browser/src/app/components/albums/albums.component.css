@@ -1,0 +1,9 @@
+h2 { font-size: 28px; font-weight: normal; margin-bottom: 28px; color: #1a1a1a; }
+.loading { color: #999; font-size: 14px; letter-spacing: 1px; padding: 40px 0; }
+.list { display: flex; flex-direction: column; gap: 2px; }
+.item { display: flex; align-items: center; gap: 16px; padding: 14px 20px; background: #fff; border: 1px solid #e8e4de; cursor: pointer; transition: border-color 0.15s; }
+.item:hover { border-color: #c8a96e; background: #fdfbf7; }
+.num { font-size: 12px; color: #bbb; width: 32px; flex-shrink: 0; font-family: monospace; }
+.title { flex: 1; font-size: 15px; color: #1a1a1a; text-transform: capitalize; }
+.del { padding: 6px 14px; background: none; border: 1px solid #ddd; color: #999; font-size: 12px; cursor: pointer; transition: all 0.15s; flex-shrink: 0; }
+.del:hover { border-color: #e55; color: #e55; }

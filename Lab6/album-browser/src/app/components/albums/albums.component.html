@@ -1,0 +1,11 @@
+<div class="albums">
+    <h2>All Albums</h2>
+    <div class="loading" *ngIf="loading">Loading albums...</div>
+    <div class="list" *ngIf="!loading">
+      <div class="item" *ngFor="let album of albums" (click)="goToDetail(album.id)">
+        <span class="num">{{ album.id }}</span>
+        <span class="title">{{ album.title }}</span>
+        <button class="del" (click)="onDelete(album.id, $event)">Delete</button>
+        </div>
+    </div>
+</div>

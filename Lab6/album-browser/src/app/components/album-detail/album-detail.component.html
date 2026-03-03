@@ -1,0 +1,20 @@
+<div class="detail">
+    <div class="loading" *ngIf="loading">Loading...</div>
+    <ng-container *ngIf="!loading && album">
+    <div class="top">
+        <button class="back-btn" (click)="goBack()">Back to Albums</button>
+    </div>
+        <div class="meta">
+        <span class="id-tag">Album #{{ album.id }}</span>
+        <span class="user-tag">User {{ album.userId }}</span>
+    </div>
+        <h2>{{ album.title }}</h2>
+        <div class="edit-block">
+        <label>Edit title</label>
+        <input [(ngModel)]="editTitle" type="text" class="input" />
+        <button class="save-btn" (click)="saveTitle()">Save</button>
+        <span class="saved-msg" *ngIf="saved">Saved!</span>
+    </div>
+        <button class="photos-btn" (click)="goPhotos()">View Photos</button>
+    </ng-container>
+</div>
